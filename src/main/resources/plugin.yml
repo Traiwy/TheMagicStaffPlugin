@@ -1,0 +1,15 @@
+name: TheMagicStaffPlugin
+version: '${version}'
+main: ru.traiwy.themagicstaffplugin.TheMagicStaffPlugin
+api-version: '1.16'
+commands:
+  givemagicstaff:
+    description: Выдаёт Посох Арканов игроку.
+    usage: /givemagicstaff
+    permission: themagicstaffplugin.givemagicstaff
+    permission-message: У вас нет прав для использования этой команды!
+  upgradestaff:
+    description: Улучшает Посох Арканов.
+    usage: /upgradestaff
+    permission: themagicstaffplugin.upgradestaff
+    permission-message: У вас нет прав для использования этой команды!
